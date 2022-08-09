@@ -1,0 +1,145 @@
+public class potenza {
+    public static void main(String[] args) {
+        int Quantita = 97, ConatoreCinquanta = 0, ConatoreVenti = 0, ConatoreDicei = 0, ConatoreCinque = 0,
+                ConatoreDue = 0;
+        int CinquantaCent = 0, VentiCent = 0, DiceiCent = 0, CinqueCent = 0, DueCent = 0;
+        int Quantita_originale = Quantita;
+
+        // Ciclo dedicato alla estrapolazione della quanità 50
+        for (int i = 0; i <= 50; i++) { 
+            if (Quantita < 50) { 
+                break; 
+            }
+            if (i == 50) { // se i == 50 entra in questa porzione di codie
+
+                if (Quantita >= 49) {
+
+                    Quantita = Quantita - 1 * 50;
+                    i = 0;
+                    CinquantaCent = CinquantaCent + 50;
+                    ConatoreCinquanta++;
+
+                }
+
+            }
+
+        }
+
+        for (int i = 0; i <= 20; i++) {
+
+            if (Quantita < 20) {
+
+                break;
+            }
+
+            if (i == 20) {
+                if (Quantita >= 20) {
+
+                    Quantita = Quantita - 1 * 20;
+
+                    VentiCent = VentiCent + 20;
+
+                    ConatoreVenti++;
+                    i = 0;
+
+                }
+
+            }
+
+        }
+
+        for (int i = 0; i <= 10; i++) {
+
+            if (Quantita < 10) {
+                break;
+
+            }
+
+            if (Quantita >= 10) {
+
+                Quantita = Quantita - 1 * 10;
+                DiceiCent = DiceiCent + 10;
+                ConatoreDicei++;
+
+                i = 0;
+            }
+
+        }
+
+        for (int i = 0; i <= 5; i++) {
+
+            if (Quantita < 5) {
+                break;
+            }
+
+            if (Quantita >= 5) {
+
+                Quantita = Quantita - 1 * 5;
+                CinqueCent = CinqueCent + 5;
+                ConatoreCinque++;
+            }
+        }
+
+        for (int i = 0; i <= 2; i++) {
+            if (Quantita < 2) {
+                break;
+            }
+
+            if (Quantita >= Quantita) {
+
+                Quantita = Quantita - 1 * 2;
+                DueCent = DueCent + 2;
+                ConatoreDue++;
+            }
+        }
+
+        System.out.println("la quantià inserita: " + Quantita_originale + " dara il seguente risultato");
+
+        System.out.println("numero di monete " + ConatoreCinquanta + " con il valore di : " + CinquantaCent);
+
+        System.out.println("numero di monete " + ConatoreVenti + " con il valore di : " + VentiCent);
+
+        System.out.println("numero di monete " + ConatoreDicei + " con il valore di : " + DiceiCent);
+
+        System.out.println("numero di monete " + ConatoreCinque + " con il valore di : " + CinqueCent);
+
+        System.out.println("numero di monete " + ConatoreDue + " con il valore di : " + DueCent);
+
+    }
+}
+
+/*.
+il codice di sopra esegue una serie di operazioni che permettono l'estrapolazione di un certo valore X all'interdo della Variabile Y
+	
+		il FUNZIONAMENTO:
+			l'esercicio richiedeva di estrapolare il numero di volte che una certa quantità si nel valore,
+			ESEMPIO: 
+			
+			Quante volte il numero 50 è presente nel valore 97?
+			 
+			 la risposta è molto simplice in quanto il valore 50 dentro la quantità 97
+			 si ripete una sola volta.
+			 
+			 per tradutte questa operazione in linguaggio di programmazione è stato usato il seguente logaritmo:
+			 
+			  for (int i = 0; i <= 50; i++) { si crea un ciclo di iterazione per utilizzare la variabile "i" inizializzata a 0
+            if (Quantita < 50) { // si effettua un controllo sulla variabile quantità per ferificare che sia maggiore di 50 se non lo fosse il ciclo termina
+                break; // comando per uscire dal cicilo 
+            }
+            if (i == 50) { // se i == 50 entra in questa porzione di codie controliamo se la variabile "i" sia uguale a 50 
+
+                if (Quantita >= 50) { // se la quantità nella variabile è uguale o maggiore di 50 entra nella porzione di codice per l'operazione richiesta 
+
+                    Quantita = Quantita - 1 * 50; // eseguzione della sottrazione della quantità 50 dalla variabile 
+                    i = 0;
+                    CinquantaCent = CinquantaCent + 50; // assegniamento di il valore 50 a una nuova variabile 
+                    ConatoreCinquanta++; // conta il numero di volte della operazione
+
+                }
+
+            }
+
+			 
+			 
+			 
+			 
