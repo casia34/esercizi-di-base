@@ -1,0 +1,15 @@
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.csproj.AssemblyReference.cache
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.AssemblyInfoInputs.cache
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.AssemblyInfo.cs
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.csproj.CoreCompileInputs.cache
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\bin\Debug\net6.0\LetturaFile.exe
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\bin\Debug\net6.0\LetturaFile.deps.json
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\bin\Debug\net6.0\LetturaFile.runtimeconfig.json
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\bin\Debug\net6.0\LetturaFile.dll
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\bin\Debug\net6.0\LetturaFile.pdb
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.dll
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\refint\LetturaFile.dll
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.pdb
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\LetturaFile.genruntimeconfig.cache
+C:\Users\Betacom\Desktop\Esercici\LetturaFile\LetturaFile\obj\Debug\net6.0\ref\LetturaFile.dll
